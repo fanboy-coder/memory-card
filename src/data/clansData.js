@@ -1,5 +1,5 @@
 const clans = [
-	{ name: "Salubri", image: require("../images/LogoBloodlineSalubri.png")},
+	{ name: "Salubri", image: require("../images/LogoBloodlineSalubri.png"),},
 	{ name: "Ravnos", image: require("../images/SymbolClanRavnosV5.png")},
 	{ name: "Tzimisce", image: require("../images/LogoClanTzimisce.png")},
 	{ name: "Lasombra", image: require("../images/LogoClanLasombraV5.png")},

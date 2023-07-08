@@ -1,12 +1,16 @@
 import { React, useState } from "react";
-import Scoreboard from "./Scoreboard";
 
 export default function Image(props) {
 
 	const [selectedImage,setSelectedImage] = useState(false);
 
 	function clickImage() {
-		setSelectedImage(true);
+		if(!selectedImage) {
+			setSelectedImage(true)
+			props.onScoreChange();
+		} else {
+			props.bestScore();
+		}
 	}
 
 	return (
