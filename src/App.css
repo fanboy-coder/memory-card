@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200&display=swap');
-
 .App {
   text-align: center;
   display: grid;
   font-family: "Ysabeau Infant", sans-serif;
 }
 
+.title {
+
+}
+
 #bottom {
 	display: grid;
-	grid-template-columns: repeat(4,1fr);
+	grid-template-columns: repeat(5,1fr);
 	gap: 3%;
 	align-items: center;
 }
@@ -25,4 +27,8 @@
 
 img {
 	max-width: 40%;
+}
+
+.logo {
+	max-width: 10%;
 }
